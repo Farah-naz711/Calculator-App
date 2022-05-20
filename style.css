@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: sans-serif;
+    outline: none !important;
+}
+body{
+    background-color: #ecf0f3 !important;
+}
+table{
+    width: 100%;
+}
+input{
+    border-radius: 8px;
+    width: 100%;
+    /* box-shadow: 12px 12px 20px #cbced1,
+    
+    -12px -12px 20px #ffffff; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border: none;
+    text-align: right;
+    background-color: #ecf0f3;
+    font-size: 18px;
+    color: gray;
+
+}
+.inp-div{
+    width: 85%;
+}
+h1{
+    color: gray !important;
+    text-align: center;
+}
+.outer-box{
+    width: max-content !important;
+    margin: 25px auto 0 auto;
+    border-radius: 12px ;
+    /* box-shadow: 12px 12px 20px #cbced1,
+    
+    -12px -12px 20px #ffffff; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.op{
+    /* background-color: 	#D3D3D3; */
+    
+
+    background-color: 	#D0D0D0;
+}
+button{
+    border-radius: 50% !important;
+    height: 48px;
+    width: 48px;
+    color: gray;
+    font-size: 18px;
+    box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0,0,0.16);
+    border: none;
+    /* background-color: transparent; */
+    
+}
+.func{
+    background-color: 	#E0E0E0;
+}
+td{
+    padding: 10px;
+}
+.btn-lrg{
+    width: 100%;
+    border-radius: 40px !important;
+    height:45px;
+}
+
+
+
+/* /////////////////////////// */
+
+.front{
+
+    position: absolute;
+    background-color: transparent;
+    backface-visibility: hidden;
+    width: max-content !important;
+    margin: 25px auto 0 auto;
+    border-radius: 12px ;
+
+
+}
+
+
+.back{
+  
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    width: max-content !important;
+    margin: 25px auto 0 auto;
+    border-radius: 12px ;
+    
+}
+.upBox{
+    position: relative;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+}
+.upBox:hover{
+    transform: rotateY(180deg);
+}
+
+
+/* ///////////////////////// */
+
+
+/* body{
+    background-color: #ecf0f3;
+}
+table{
+    margin: auto;
+}
+.outer-box{
+
+    border-radius: 8px;
+    width: 30% !important;
+  
+    box-shadow: 12px 12px 20px #cbced1,
+    
+    -12px -12px 20px #ffffff;
+    padding: 0;
+}
+input{
+    text-align: right;
+    border: none;
+    padding: 15px;
+
+}
+ button{
+    border-radius: 50% !important;
+    box-shadow: -5px -5px 12px #ffffff,
+        5px 5px 12px rgba(0,0,0.16);
+        border: none;
+        width: 45px;
+        height: 45px;
+        font-size: 23px;
+    
+}
+td{
+    padding: 10px ;
+}
+ */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+ background-color: #ecf0f3;
+ padding: 15px;
+ border-radius: 30px;
+ box-shadow: inset 5px 5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,.16);
+                    display: grid;
+                    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                       5px 5px 12px rgba(0,0,0,.16);
+                       border: none;
+                       border-radius: 30px;
+                       color: rgb(70,70, 70 );
+                       font-size: 50px;
+                       text-align: end;
+                       margin-top: 40px;
+                       padding: 20px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                  5px 5px 12px rgba(0,0,0,.16);
+                  border: none;
+                  border-radius: 50px;
+                  margin: 8px;
+                  font-size: 16px;
+}
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                  5px 5px 12px rgba(0,0,0,.16);
+} */
