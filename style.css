@@ -24,10 +24,12 @@ input{
     background-color: #ecf0f3;
     font-size: 18px;
     color: gray;
-
+box-shadow: 5px 5px 8px #00000020,
+    -5px -5px 8px #ffffff
 }
 .inp-div{
-    width: 85%;
+    width: 90%;
+    margin: 0 auto !important;
 }
 h1{
     color: gray !important;
@@ -35,7 +37,7 @@ h1{
 }
 .outer-box{
     width: max-content !important;
-    margin: 25px auto 0 auto;
+    margin: 25px auto 0 auto !important;
     border-radius: 12px ;
     /* box-shadow: 12px 12px 20px #cbced1,
     
@@ -58,8 +60,10 @@ button{
     width: 48px;
     color: gray;
     font-size: 18px;
-    box-shadow: -5px -5px 12px #ffffff,
-    5px 5px 12px rgba(0,0,0.16);
+    /* box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0,0,0.16); */
+   box-shadow: 5px 5px 8px #00000020,
+    -5px -5px 8px #ffffff ; 
     border: none;
     /* background-color: transparent; */
     
@@ -68,7 +72,7 @@ button{
     background-color: 	#E0E0E0;
 }
 td{
-    padding: 10px;
+    padding: 5px;
 }
 .btn-lrg{
     width: 100%;
@@ -77,42 +81,12 @@ td{
 }
 
 
-
-/* /////////////////////////// */
-
-.front{
-
-    position: absolute;
-    background-color: transparent;
-    backface-visibility: hidden;
-    width: max-content !important;
-    margin: 25px auto 0 auto;
-    border-radius: 12px ;
-
-
-}
-
-
-/* .back{
-  
-    position: absolute;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    width: max-content !important;
-    margin: 25px auto 0 auto;
-    border-radius: 12px ;
-    
-}
-.upBox{
-    position: relative;
-    transition: all 1s ease;
-    transform-style: preserve-3d;
-}
-.upBox:hover{
-    transform: rotateY(180deg);
-} */
-
-
-/* ///////////////////////// */
+button:hover{
+    /* box-shadow: 5px 5px 8px #00000020,
+    -5px -5px 8px #ffffff;
+    */
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+    -5px -5px 8px rgba(16, 16, 16, .1);
+} 
 
 

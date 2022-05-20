@@ -17,13 +17,14 @@
 
         <h1 class="mt-3 ">Calculator App</h1>
     </div>
-    <section class="d-flex justify-content-between flex-wrap">
-    <section class="container outer-box d-flex justify-content-center flex-column  align-items-center p-2">
+
+    <!-- <section class="d-flex justify-content-around  flex-wrap"> -->
+    <section class="container my-5 outer-box d-flex   flex-column   p-2">
         <div class="inp-div my-2">
             <input type="text" id="input"  placeholder="0"  >
         </div>
         <div>
-            <table >
+            <!-- <table >
                 <tr>
                     <td ><button onclick="allClear()" class="func"> AC</button></td>
                     <td ><button onclick="Clear()" class="func">C</button></td>
@@ -53,8 +54,53 @@
                     <td    ><button onclick="getValue('.') ">.</button></td>
                     <td ><button onclick="totalValue()" class="op">=</button></td>
             
-                </tr>
-
+                </tr> -->
+                <table >
+                    <tr>
+                        <td><button class="func" onclick="facto()">x!</button></td>
+                        <td ><button onclick="allClear()" class="func"> AC</button></td>
+                        <td ><button onclick="Clear()" class="func">C</button></td>
+                        <td ><button onclick="getValue('%')" class="func">%</button></td>
+                        <td ><button onclick="getValue('/')"class="op">/</button></td>
+               </tr>
+                    <tr>
+                        <td><button onclick="sin()">sin</button></td>
+                        
+                        <td ><button onclick="getValue('7')">7</button></td>
+                        <td ><button onclick="getValue('8')">8</button></td>
+                        <td ><button onclick="getValue('9')">9</button></td>
+                        <td ><button onclick="getValue('+')" class="op">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="cos()">cos</button></td>
+                        <td ><button onclick="getValue('4')">4</button></td>
+                        <td ><button onclick="getValue('5')">5</button></td>
+                        <td ><button onclick="getValue('6')">6</button></td>
+                        <td ><button onclick="getValue('-')" class="op">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="tan()">tan</button></td>
+                        <td ><button onclick="getValue('1')">1</button></td>
+                        <td ><button onclick="getValue('2')">2</button></td>
+                        <td ><button onclick="getValue('3')">3</button></td>
+                        <td ><button onclick="getValue('*')"class="op">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="getValue('&#40;')">(</button></td>
+                        <td><button onclick="getValue('&#41;')">)</button></td>
+                        <td ><button  onclick="getValue()">0</button></td>
+                        <td    ><button onclick="getValue('.') ">.</button></td>
+                        <td ><button onclick="totalValue()" class="op">=</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button onclick="Sqrt()">&#8730;</button></td>
+                        <td><button onclick="log()">log</button></td>
+                        <td><button onclick="pi()">pi</button></td>
+                        <td><button onclick="e()">e</button></td>
+                        <td><button onclick="power()">x^y</button></td>
+                    </tr>
+                    
             </table>
         </div>
 
@@ -62,7 +108,9 @@
 
 
     
+    
 </section>
+
 
 </body>
 <script src="app.js"></script>
